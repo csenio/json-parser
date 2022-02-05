@@ -10,3 +10,11 @@ Added implementation for parsing BigInt & symbol with new syntax:
     "symbol": $Heyy$
   }
 ```
+returns
+
+```js
+{
+  bigInt: 9007199254740991n,
+  symbol: Symbol(Heyy) 
+}
+```
